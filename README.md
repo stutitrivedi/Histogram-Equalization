@@ -9,6 +9,7 @@ Problem Statement:
 Low-contrast images often have a narrow range of intensity values, making important features hard to distinguish. Histogram equalization enhances image contrast by flattening and spreading out the most frequent intensity values, improving the visibility of fine details.
 
 
+
 Solution Overview:
 
 -A Python function written from scratch using NumPy to perform histogram equalization.
@@ -20,6 +21,7 @@ Solution Overview:
 -An interactive Jupyter notebook to explore the process step-by-step.
 
 Note: This implementation avoids using OpenCV's equalizeHist() function in the custom logic. The OpenCV function is used only for comparison.
+
 
 
 Project Structure:
@@ -35,6 +37,7 @@ Project Structure:
 -comparison_result.png : Side-by-side comparison of outputs (optional)
 
 
+
 How It Works:
 
 -Compute the histogram of the grayscale image.
@@ -46,6 +49,7 @@ How It Works:
 -Map original pixel values to new values using the CDF.
 
 -Construct and return the equalized image.
+
 
 
 Requirements:
