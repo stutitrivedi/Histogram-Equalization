@@ -8,6 +8,7 @@ Low-contrast images often have a narrow range of intensity values, making import
 
 Solution Overview:
 -A Python function written from scratch using NumPy to perform histogram equalization.
+
 -A test image to demonstrate the effects.
 -A visual comparison with OpenCV’s built-in cv2.equalizeHist() function to verify correctness.
 -An interactive Jupyter notebook to explore the process step-by-step.
